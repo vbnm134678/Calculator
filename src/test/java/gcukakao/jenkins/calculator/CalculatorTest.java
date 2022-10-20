@@ -12,4 +12,16 @@ public class CalculatorTest {
      public void testSum() { 
           assertEquals(5, calculator.sum(2, 3)); 
      } 
+     @Test 
+     public void testSub() { 
+          assertEquals(5, calculator.sum(3, 2)); 
+     } 
+     @Test 
+     public void testMul() { 
+          assertEquals(10, calculator.sum(2, 5)); 
+     } 
+     @Test 
+     public void testDiv() { 
+          assertEquals(6, calculator.sum(12, 2)); 
+     } 
 } 
